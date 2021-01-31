@@ -18,7 +18,7 @@ import java.util.stream.Collectors;
 
 @RestController
 @RequestMapping(value = "/posts")
-public class PostResource {
+public class PostController {
 
     @Autowired
     private PostService postService;
